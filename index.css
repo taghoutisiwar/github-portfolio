@@ -1,6 +1,9 @@
 /* --------------------------------------- */
 /* ----- Basic Setup ----- */
 /* --------------------------------------- */
+.justified-text {
+    text-align: justify;
+}
 
 @font-face {
     font-family: 'Hk Grotesk';
