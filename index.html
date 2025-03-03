@@ -78,45 +78,50 @@
 
           <div class="work__box">
             <div class="work__text">
-              <h3>Portfolio Template</h3>
-              <p>
-                A free Open Source Portfolio for anyone to use for free.
-              </p>
-              <ul class="work__list">
-                <li>HTML</li>
-                <li>SCSS</li>
-                <li>JavaScript</li>
-                <li>Parcel</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="https://nisar.surge.sh" target="_blank" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="https://github.com/nisarhassan12/portfolio" title="View Source Code" target="_blank">
-                  <img src="./images/github.svg" class="work__code" alt="GitHub">
-                </a>
-              </div>
+                <h3>Jumia Web Scraping Project</h3>
+                <p>Developed a web scraping project to extract smartphone data from
+                  Jumia, with a user-friendly interface for filtering and searching
+                  smartphones.</p>
+                <ul class="work__list">
+                    <li>Django </li>
+                    <li>Python Library
+                      BeautifulSoup</li>
+                    <li>Python Library Selenium</li>
+                </ul>
+        
+                <div class="work__links">
+                    <p class="link__text">
+                        Visit Site <span>&rarr;</span>
+                    </p>
+                    <a href="https://github.com/nisarhassan12/portfolio" title="View Source Code" target="_blank">
+                        <img src="./images/github.svg" class="work__code" alt="GitHub">
+                    </a>
+                </div>
             </div>
-            <div class="work__image-box">
-              <img src="./images/project-1.png" class="work__image" alt="Project 1" />
+        
+            <!-- Video Container -->
+            <div class="video-container">
+                <video id="portfolioVideo" width="90%" controls>
+                    <source src="./images/scrapping-python.mp4" type="video/mp4">
+                </video>
             </div>
-          </div>
+        </div>
 
           <div class="work__box">
             <div class="work__text">
-              <h3>Calculator</h3>
+              <h3>Property Price Prediction and Visualization with Machine Learning</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
+                Integrating a machine learning algorithm that predicts property prices with both the backend and frontend. The predicted prices are displayed on a map, providing a visual representation of real estate values.
               </p>
               <ul class="work__list">
                 <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
-              </ul>
+                <li>Django</li>
+                <li>Random Forest</li>
+                <li>XGBoost</li>
+                <li>React Leaflet</li>
 
+              </ul>
+              <!--
               <div class="work__links">
                 <a href="#" class="link__text">
                   Visit Site <span>&rarr;</span>
@@ -125,24 +130,24 @@
                   <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
                 </a>
               </div>
-            </div>
+            -->
+          </div>
             <div class="work__image-box">
-              <img src="./images/project-2.png" class="work__image" alt="Project 1" />
+              <img src="C:\Users\tagho\portfolio-template\images\WhatsApp Image 2024-05-27 à 22.49.26_fdde8920.jpg" class="work__image" alt="Project 1" />
             </div>
           </div>
 
           <div class="work__box">
             <div class="work__text">
-              <h3>Notificator</h3>
+              <h3>Real Estate Platform</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
+                Development of a Real Estate Platform . 
               </p>
               <ul class="work__list">
                 <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
+                <li>Tailwind Css</li>
+                <li>Django</li>
+                <li>MySQl</li>
               </ul>
 
               <div class="work__links">
@@ -260,6 +265,12 @@
     <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
   </a>
   <script src="./index.js"></script>
+  <script>
+    function playVideo() {
+        let video = document.getElementById("portfolioVideo");
+        video.playbackRate = 2.0; // Set speed to 2x
+        video.play();
+    }
+  </script>
 </body>
-
 </html>
